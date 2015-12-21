@@ -1,4 +1,4 @@
-import { Tree } from 'PhyloCanvas';
+import { Tree } from 'phylocanvas';
 
 function http({ url, method, data }, callback) {
   const xhr = new XMLHttpRequest();

@@ -1,4 +1,4 @@
-import PhyloCanvas from 'PhyloCanvas';
+import PhyloCanvas from 'phylocanvas';
 import ajaxPlugin from '../src/index';
 
 PhyloCanvas.plugin(ajaxPlugin);
@@ -14,4 +14,4 @@ tree.on('loaded', function () {
   console.log('loaded');
 });
 
-tree.load('/dev/tree.nwk');
+tree.load('/dev/SPARC.nwk');
