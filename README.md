@@ -1,19 +1,19 @@
-# PhyloCanvas Ajax Plugin
+# Phylocanvas Ajax Plugin
 Load tree format strings via Ajax.
 
 ## Usage
 
 ```
-npm install PhyloCanvas phylocanvas-plugin-ajax
+npm install phylovanvas phylocanvas-plugin-ajax
 ```
 
 ```javascript
-import PhyloCanvas from 'PhyloCanvas';
+import Phylocanvas from 'phylocanvas';
 import ajaxPlugin from phyocanvas-plugin-ajax;
 
-PhyloCanvas.plugin(ajaxPlugin);
+Phylocanvas.plugin(ajaxPlugin);
 
-const tree = PhyloCanvas.createTree(element);
+const tree = Phylocanvas.createTree(element);
 
 tree.load('/url/to/tree-file');
 ```
