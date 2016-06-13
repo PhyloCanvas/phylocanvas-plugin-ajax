@@ -2,7 +2,7 @@
   "name": "phylocanvas-plugin-ajax",
   "version": "1.0.0",
   "description": "Load tree format strings via Ajax.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "webpack-dev-server --inline",
     "build": "NODE_ENV=production webpack",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PhyloCanvas/phylocanvas-plugin-ajax.git"
+    "url": "git+https://github.com/phylocanvas/phylocanvas-plugin-ajax.git"
   },
   "keywords": [
     "phylocanvas",
@@ -20,9 +20,9 @@
   "author": "",
   "license": "LGPL-3.0",
   "bugs": {
-    "url": "https://github.com/PhyloCanvas/phylocanvas-plugin-ajax/issues"
+    "url": "https://github.com/phylocanvas/phylocanvas-plugin-ajax/issues"
   },
-  "homepage": "https://github.com/PhyloCanvas/phylocanvas-plugin-ajax#readme",
+  "homepage": "https://github.com/phylocanvas/phylocanvas-plugin-ajax#readme",
   "devDependencies": {
     "babel-core": "^6.3.21",
     "babel-loader": "^6.2.0",
@@ -32,5 +32,9 @@
     "phylocanvas": "^2.4.0",
     "webpack": "^1.10.5",
     "webpack-dev-server": "^1.10.1"
-  }
+  },
+  "files": [
+    "dist",
+    "*.md"
+  ]
 }
