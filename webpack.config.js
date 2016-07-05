@@ -3,8 +3,11 @@ const webpack = require('webpack');
 
 const loaders = [
   { test: /\.js$/,
-    exclude: /webpack/,
     loader: 'babel',
+    exclude: [
+      path.join(__dirname, 'node_modules'),
+      /polyfill/,
+    ],
     query: {
       presets: [ 'es2015', 'stage-0' ],
     },

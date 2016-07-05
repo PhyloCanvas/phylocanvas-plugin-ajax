@@ -1,3 +1,5 @@
+import 'phylocanvas/polyfill';
+
 import PhyloCanvas from 'phylocanvas';
 import ajaxPlugin from '../src/index';
 
